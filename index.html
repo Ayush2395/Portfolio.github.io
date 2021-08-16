@@ -6,135 +6,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome</title>
-
-    <style>
-        * {
-            box-sizing: border-box;
-            /* height: 1080px;
-            width: 1920px; */
-        }
-        
-        body {
-            background: linear-gradient(135deg, #92E3FE, #9CF7DF);
-            /* width: 1920px;
-            height: 1080px; */
-            color: white;
-            justify-content: center;
-        }
-        
-        header {
-            background-image: url("Icon/Header_bgheader_bg.png");
-            /* justify-content: center; */
-            height: 50px;
-            /* position: sticky; */
-            top: 0px;
-        }
-        
-        .navbar {
-            /* float: left; */
-            display: inline-block;
-            margin: 2px auto;
-            padding: 2px 2px;
-            position: absolute;
-            left: 576px;
-            top: 4px;
-        }
-        
-        li {
-            display: inline-block;
-        }
-        
-        #logo {
-            margin: -6px 18px;
-            padding: 0px 40px;
-            display: inline-block;
-            position: absolute;
-            top: 17px;
-            font-family: "Road Rage";
-            font-size: 25px;
-        }
-        
-        #searchIcon {
-            background-image: url(Icon/search_iconSearch\ icon.png);
-            margin: 4px 72px;
-            padding: 17px 17px;
-            display: inline-block;
-            position: relative;
-            left: 1276px;
-            top: 3px;
-        }
-        
-        h2 {
-            font-family: "Road Rage";
-            display: inline-block;
-            margin: 140px 275px;
-            padding: 2px 2px;
-            border: 2px solid red;
-            font-size: 80px;
-        }
-        
-        nav li a {
-            text-decoration: none;
-            color: #ffffff;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        
-        nav li {
-            padding: 17px;
-            margin: -17px 4px;
-            padding-right: 30px;
-            position: relative;
-            right: 83px;
-        }
-        
-        nav li a:hover {
-            color: rgb(39, 16, 27);
-        }
-        
-        span {
-            /* height: 50px; */
-            display: block;
-            width: 30%;
-            font-family: Arial, Helvetica, sans-serif;
-            text-align: left;
-            border: 2px solid red;
-            padding: 12px 8px;
-            margin: -68px 93px;
-            font-size: 16px;
-        }
-        
-        footer {
-            background-image: url("/Icon/Header_bgheader_bg.png");
-            height: 50px;
-            position: sticky;
-            bottom: -180px;
-        }
-        
-        footer div {
-            text-align: center;
-            font-family: Arial, Helvetica, sans-serif;
-            padding: 12px;
-        }
-    </style>
-
 </head>
-<!-- <link rel="stylesheet" href="/css/index.css"> -->
+
+<style>
+    body {
+        color: white;
+    }
+    
+    .header {
+        background-color: #ff8f8f;
+        display: flex;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    nav li a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    nav li {
+        display: inline-block;
+        padding: 3px 3px;
+        margin: 3px auto;
+        justify-content: center;
+    }
+    
+    .searchIcon {
+        background-image: url("/Icon/search_iconSearch\ icon.png");
+        position: absolute;
+        left: 50%;
+        margin: 4px auto;
+    }
+</style>
 
 <body>
+    <div class="header">
 
-
-    <header>
-
-        <!-- logo -->
-        <div id="logo">
-            AKM
+        <div class="logo">
+            logo
         </div>
 
-        <!-- Navigation menu -->
-        <div class="navbar">
-            <nav id="items">
+        <div id="menuBar">
+            <nav id="navbar">
                 <ul>
-                    <li><a href="#" id="home">Home</a></li>
+                    <li><a href="#">Home</a></li>
                     <li><a href="#">Projects</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contact</a></li>
@@ -142,29 +60,27 @@
             </nav>
         </div>
 
-        <!-- Search icon -->
-        <div id="searchIcon">
-            <!-- Search -->
+        <div class="searchIcon">
+            <span>Search</span>
         </div>
-    </header>
 
-    <article>
-        <h2>Ayush</h2><br>
-        <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, veniam repellendus tempore blanditiis
-            quasi delectus, officia quia voluptatem recusandae reprehenderit ipsum. Necessitatibus maxime asperiores
-            deleniti corporis eum accusamus, ducimus aspernatur dolor neque veniam, perferendis doloremque amet
-            soluta deserunt ipsam nulla!</span>
-    </article>
-
-    <div id="footer">
-        <footer id="footer_container">
-            <div>
-                copyrights
-            </div>
-        </footer>
     </div>
 
-
+    <div class="main">
+        <div id="name">
+            Ayush
+        </div>
+        <div class="article">
+            <div id="paragragh">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda eaque quam ipsam alias delectus quibusdam fuga laborum accusantium odio aspernatur?
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <footer>
+            <span>&copy;This website is created by Ayush</span>
+        </footer>
+    </div>
 </body>
 
 </html>
