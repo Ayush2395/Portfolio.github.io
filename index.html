@@ -21,12 +21,14 @@
             background-image: url("Icon/Header_bgheader_bg.png");
             /* justify-content: center; */
             height: 50px;
+            /* position: sticky; */
+            top: 0px;
         }
         
         .navbar {
             /* float: left; */
             display: inline-block;
-            margin: auto;
+            margin: 2px auto;
             padding: 2px 2px;
             position: absolute;
             left: 576px;
@@ -38,19 +40,23 @@
         }
         
         #logo {
-            margin: 3px;
-            padding: 4px 40px;
+            margin: -6px 18px;
+            padding: 0px 40px;
             display: inline-block;
             position: absolute;
             top: 17px;
+            font-family: "Road Rage";
+            font-size: 25px;
         }
         
         #searchIcon {
-            margin: 3px;
-            padding: 11px 50px;
+            background-image: url(Icon/search_iconSearch\ icon.png);
+            margin: 4px 72px;
+            padding: 17px 17px;
             display: inline-block;
-            position: absolute;
-            right: 3px;
+            position: relative;
+            left: 1276px;
+            top: 3px;
         }
         
         h2 {
@@ -68,12 +74,24 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         
+        nav li {
+            padding: 17px;
+            margin: -17px 4px;
+            padding-right: 30px;
+            position: relative;
+            right: 83px;
+        }
+        
         span {
-            height: 50px;
-            width: 50px;
+            /* height: 50px; */
+            display: block;
+            width: 30%;
             font-family: Arial, Helvetica, sans-serif;
             text-align: left;
             border: 2px solid red;
+            padding: 12px 8px;
+            margin: -68px 93px;
+            font-size: 16px;
         }
         
         footer {
@@ -88,10 +106,6 @@
             font-family: Arial, Helvetica, sans-serif;
             padding: 12px;
         }
-        
-        #footer {
-            box-shadow: black;
-        }
     </style>
 
 </head>
@@ -104,7 +118,7 @@
 
         <!-- logo -->
         <div id="logo">
-            logo
+            AKM
         </div>
 
         <!-- Navigation menu -->
@@ -121,7 +135,7 @@
 
         <!-- Search icon -->
         <div id="searchIcon">
-            Search
+            <!-- Search -->
         </div>
     </header>
 
