@@ -1,0 +1,66 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        background: linear-gradient(135deg, #92E3FE, #9CF7DF);
+        color: white;
+    }
+    
+    header {
+        background: #ff8f8f;
+        height: 50px;
+    }
+    
+    .navbar {
+        /* float: left; */
+        display: inline-block;
+        margin: auto;
+        padding: 2px 2px;
+        position: absolute;
+        left: 576px;
+        top: 4px;
+    }
+    
+    li {
+        display: inline-block;
+    }
+    
+    #logo {
+        margin: 3px;
+        padding: 4px 40px;
+        display: inline-block;
+        position: absolute;
+        top: 17px;
+    }
+    
+    #searchIcon {
+        margin: 3px;
+        padding: 11px 50px;
+        display: inline-block;
+        position: absolute;
+        right: 3px;
+    }
+    
+    h2 {
+        font-family: "Road Rage";
+        display: inline-block;
+        margin: 140px 275px;
+        padding: 2px 2px;
+        border: 2px solid red;
+        font-size: 80px;
+    }
+    
+    nav li a {
+        text-decoration: none;
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    span {
+        height: 50px;
+        width: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        border: 2px solid red;
+    }
