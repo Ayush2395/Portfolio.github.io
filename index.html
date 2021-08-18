@@ -8,7 +8,132 @@
     <title>Home</title>
 </head>
 
-<link rel="stylesheet" href="/css/index.css">
+<style>
+    body {
+        background-image: url("/img/Bg.png");
+        color: white;
+        height: 100%;
+        /* Center and scale the image nicely */
+        /* background-position: center; */
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    h1 {
+        font-family: "Road Rage";
+        font-size: 120px;
+        padding: 175px 14px;
+        margin: 14px -99px;
+        display: inline-block;
+        position: absolute;
+        left: 2px;
+        text-shadow: black -5px -8px 9px;
+    }
+    
+    .rotate {
+        transform: rotate(-90deg);
+    }
+    
+    nav {
+        font-family: "Road Rage";
+    }
+    
+    nav ul {
+        list-style: none;
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        position: absolute;
+        top: 6px;
+        left: 325px;
+    }
+    
+    nav li a {
+        color: white;
+        text-decoration: none;
+        display: flex;
+        font-size: 20px;
+        /* text-decoration: underline; */
+    }
+    
+    nav li a:hover,
+    nav li a:active {
+        text-decoration: underline;
+    }
+    
+    nav li {
+        display: inline-block;
+        padding: 3px 34px;
+    }
+    
+    .logo {
+        display: flex;
+        height: 20%;
+        width: 20%;
+        font-family: "Road Rage";
+        padding: 20px;
+        font-size: 25px;
+        padding: 15px 62px;
+    }
+    
+    .paraBg {
+        background: rgba(255, 255, 255, 0.425);
+        filter: blur(4px);
+        width: 30%;
+        height: 65%;
+        padding: 13px;
+        position: absolute;
+        right: 80px;
+        top: 190px;
+        border-radius: 22px;
+        opacity: 54%;
+        box-shadow: black -5px -3px 4px;
+    }
+    
+    #para {
+        display: flex;
+        width: 30%;
+        height: 65%;
+        padding: 13px;
+        position: absolute;
+        right: 80px;
+        top: 190px;
+        border-radius: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        /* filter: blur(6px); */
+    }
+    
+    #paragraph1 {
+        display: flex;
+        width: 90%;
+        margin: 35px 20px;
+        text-align: left;
+        padding: 35px 25px;
+        position: relative;
+        top: 26px;
+        /* font-family: 540px; */
+    }
+    
+    h3 {
+        font-family: "Road Rage";
+        position: absolute;
+        right: 244px;
+        top: 182px;
+        font-size: 40px;
+    }
+    
+    footer p {
+        /* border: 2px solid white; */
+        display: flex;
+        position: absolute;
+        bottom: 0.3%;
+        left: 624px;
+        font-size: 8px;
+        font-family: "abnes";
+    }
+</style>
+
+<!-- <link rel="stylesheet" href="/css/index.css"> -->
 
 <body>
     <header>
@@ -18,7 +143,7 @@
         <div>
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="#" id="home">Home</a></li>
                     <li><a href="#">Projects</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contact</a></li>
@@ -34,7 +159,7 @@
         <div class="paraBg">
             <!-- Paragraph Box BG -->
         </div>
-        <h3>Skillss</h3>
+        <h3>Skills</h3>
         <div id="para">
             <p id="paragraph1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt veritatis quisquam voluptatum eaque aliquid facere reiciendis, exercitationem commodi corporis tempora! Voluptatum ipsam illum voluptates quia reiciendis accusamus quasi possimus
                 natus maiores, sapiente, pariatur iusto necessitatibus dolorem unde laboriosam voluptatem id est, alias iste amet quam maxime. Enim odio, rerum, corporis error voluptatibus molestiae reiciendis exercitationem cum quo, ullam numquam! Eveniet,
@@ -44,6 +169,10 @@
         </div>
 
     </article>
+
+    <footer>
+        <p>&copy; This website is create by Ayush</p>
+    </footer>
 </body>
 
 </html>

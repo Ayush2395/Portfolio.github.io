@@ -33,7 +33,7 @@ nav ul {
     width: 50%;
     justify-content: center;
     position: absolute;
-    top: 10px;
+    top: 6px;
     left: 325px;
 }
 
@@ -41,6 +41,13 @@ nav li a {
     color: white;
     text-decoration: none;
     display: flex;
+    font-size: 20px;
+    /* text-decoration: underline; */
+}
+
+nav li a:hover,
+nav li a:active {
+    text-decoration: underline;
 }
 
 nav li {
@@ -69,6 +76,7 @@ nav li {
     top: 190px;
     border-radius: 22px;
     opacity: 54%;
+    box-shadow: black -5px -3px 4px;
 }
 
 #para {
@@ -92,12 +100,13 @@ nav li {
     padding: 35px 25px;
     position: relative;
     top: 26px;
+    /* font-family: 540px; */
 }
 
 h3 {
     font-family: "Road Rage";
     position: absolute;
-    right: 236px;
+    right: 244px;
     top: 182px;
     font-size: 40px;
 }
