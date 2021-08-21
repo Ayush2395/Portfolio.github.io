@@ -22,12 +22,19 @@
     h1 {
         font-family: "Road Rage";
         font-size: 120px;
-        padding: 175px 14px;
+        padding: 14px 14px;
         margin: 50px -99px;
         display: inline-block;
         position: absolute;
         left: 2px;
+        top: 250px;
         text-shadow: black -5px -8px 9px;
+        transition: all 1s ease-in-out;
+    }
+    
+    h1:hover {
+        transform: translateX(200px);
+        /* transform: translateY(100px); */
     }
     
     .rotate {
@@ -53,12 +60,17 @@
         text-decoration: none;
         display: flex;
         font-size: 20px;
+        transition: all 0.5s ease-in-out;
         /* text-decoration: underline; */
     }
     
     nav li a:hover,
     nav li a:active {
         text-decoration: underline;
+        background-color: white;
+        color: black;
+        border-radius: 15px;
+        padding: 10px;
     }
     
     nav li {
@@ -73,7 +85,15 @@
         font-family: "Road Rage";
         padding: 20px;
         font-size: 25px;
-        padding: 15px 62px;
+        padding: 0px 0px;
+        position: relative;
+        left: 70px;
+        top: 13px;
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .logo:hover {
+        transform: scale(1.2, 1.2);
     }
     
     .paraBg {
@@ -112,6 +132,7 @@
         position: relative;
         top: 26px;
         /* font-family: 540px; */
+        transition: all 1s ease-in-out;
     }
     
     h3 {
@@ -144,7 +165,7 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a href="#" id="home">Home</a></li>
-                    <li><a href="#">Projects</a></li>
+                    <li><a href="/project.html">Projects</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
